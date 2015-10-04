@@ -1,3 +1,4 @@
+```
 1360279217 - b445e6e - Ben Foxall - Initial commit
 :000000 100644 0000000... 57510a2... A	.gitignore
 :000000 100644 0000000... 4e1745d... A	README.md
@@ -1770,3 +1771,4 @@
 :100644 100644 0def098... 61363e9... M	Gruntfile.js
 
 1437226418 - 4dedcba - Ben Foxall - Merge pull request #136 from jsoxford/welcome_page
+```
