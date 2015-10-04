@@ -62,6 +62,16 @@
 1360318182 - d0cb3cf - Ben Foxall - Update index.html
 :100644 100644 2203fcd... 302ebb5... M	index.html
 
+```
+
+# Initial site
+
+We'd just started JSOxford, and needed a website. Kevin registered `jsoxford.com` and I set to work building a basic site for us to point people towards.
+
+The first version of the site was an `index.html`, bootstrap, and a few basic css assets.
+
+```
+
 1360320806 - 78386b6 - Ben Foxall - jekyllified
 :100644 100644 ceea099... 86057ca... M	README.md
 :000000 100644 0000000... 052ff18... A	_config.yml
@@ -124,7 +134,14 @@
 :000000 100644 0000000... ef7793e... A	_posts/2012-11-15-first-meet.md
 :000000 100644 0000000... c414f6c... A	_posts/2013-01-17-jan-meet.md
 :100644 100644 d05c324... f66b858... M	_posts/2013-02-21-feb-meet.md
+```
 
+# Jekyllify
+
+We added structure to the site to include info from all of our meetups, this was included
+switching to jekyll, so we could have a post for each meetup.
+
+```
 1361217372 - f104287 - Ben Foxall - twitter intent
 :100644 100644 9c0f9f6... 56ff61a... M	_layouts/default.html
 
@@ -296,6 +313,14 @@
 :100644 100644 289ee2b... 30003b2... M	_layouts/post.html
 :100644 100644 42a5776... 50de648... M	assets/style.less
 :100644 100644 78ee7ae... 1421104... M	index.html
+
+```
+
+# Holding meetups / adding posts
+
+This structure kept us going for a while.  We added each of our meet ups as posts, JSOxford was going pretty well.
+
+```
 
 1379424769 - 59321a9 - Ben Foxall - LINKS
 :100644 100644 c228d80... b9572a5... M	_posts/2013-09-25-september.md
@@ -486,7 +511,15 @@
 1398345822 - f2d5e2f - Gabor Javorszky - Merge pull request #19 from jsoxford/mega-meetup-2
 1398347370 - 6cf0ad1 - Gil Gonçalves - Fixed Name for my talk
 :100644 100644 5890af8... b0e20d6... M	_posts/2014-05-14-mega-meetup-2.md
+```
 
+# Contributions
+
+With everything out in the open, we started getting people updating content to the site, as well as myself Kevin and Pete, we had changes in from Gil, Chvck, Gabor Max & Ryan.
+
+Having everything open on github has been a really core part of how we do things at JSOxford.
+
+```
 1398347443 - 18d754a - Ben Foxall - Merge pull request #20 from LuRsT/patch-1
 1398873961 - fffdd7c - Ryan Brooks - Adding sponsor links and logos
 :100644 100644 a7a1de2... c922dfa... M	_posts/2014-05-10-code-retreat.md
@@ -677,6 +710,15 @@
 1415889845 - 8d342c7 - Ben Foxall - we've gone to meetup
 :000000 100644 0000000... 6a66892... A	_posts/2014-11-13-meetup.md
 
+```
+# Meetup
+
+Last summer we decided to move to meetup.com - we *love* lanyrd, but we felt like we were
+losing members because all of our events were independant from each other.
+
+
+```
+
 1417019910 - aa7b308 - Ben Foxall - Create fao-paul-barrett.html
 :000000 100644 0000000... 98247bc... A	fao-paul-barrett.html
 
@@ -743,6 +785,14 @@
 :100644 100644 49ce3ee... 711c1da... M	_posts/2014-05-10-code-retreat.md
 :100644 100644 01a46d4... 87bc1b9... M	_posts/2014-05-14-mega-meetup-2.md
 :100644 100644 18e2883... 47fcd7c... M	index.html
+
+```
+
+# Max
+
+Max did a tonne of tweaks to our frontend because he cares about things.
+
+```
 
 1426244357 - a82d1b0 - Ryan Brooks - Merge pull request #58 from omgmog/master
 1426244533 - 9267b6b - Ryan Brooks - Reinstantes pygments
@@ -982,6 +1032,16 @@
 :100644 100644 e7c9aa2... a2dc3dd... M	_layouts/default.html
 :100644 100644 2cb29fb... 4ba9da7... M	css/style.less
 :100644 100644 c1e0567... 02f0b75... M	js/script.js
+
+```
+
+# Meetup…
+
+Moving to meetup was cool, though it made our site less useful.  Marcus took it upon himself to rewrite the entire site to dynamically pull information from our meetup page.
+
+This included switching from the standard github pages jekyll to a CI build solution.  Lots of pain, but awesome to have.
+
+```
 
 1427622353 - 1ff7ffd - Ryan Brooks - Merge pull request #63 from AverageMarcus/development
 1427653705 - 41443d2 - Ryan Brooks - Switches Jekyll to use Bundler (Ruby tool to use local versions of libs rather than system). Upgrades Jekyll version, and adds `Gemfile.lock` so we keep versions in sync.
@@ -1286,7 +1346,11 @@
 
 1427950208 - 2cc67d4 - Marcus Noble - Removed Gruntfil from built site
 :100644 100644 3984398... d7ea7fa... M	_config.yml
+```
 
+#Fixes
+
+```
 1427964363 - 1fc8c8f - Ben Foxall - Merge pull request #89 from jsoxford/fix_mobile_menu_button
 1427964425 - 4caa9b5 - Ben Foxall - Merge pull request #90 from jsoxford/remove_gruntfile_from_dist
 1428230319 - a000f0d - Marcus Noble - Show map to :iphone: users
