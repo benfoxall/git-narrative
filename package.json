@@ -19,5 +19,9 @@
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-markdown": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp-replace": "^0.5.4",
+    "gulp-webserver": "^0.9.1"
   }
 }
